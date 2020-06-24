@@ -1,9 +1,22 @@
 package gather;
 
-public class Totry {
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Totry {
+	
+	
+	WebDriver driver;
+	
+
+	public  void main(String[] args) {
+		
+   	
+		
+	  driver = new ChromeDriver();
+		  driver.get( "url");
+		
+		
 
 	}
 
