@@ -30,15 +30,16 @@ public String lst = "Hossain";
 
 @BeforeTest
 	
-	public void OpenBrowers() {
+	public void OpenBrowers() throws InterruptedException {
 		
 System.setProperty( "webdriver.chrome.driver", "C:\\Users\\bella\\eclipse-workspace\\Togatherwork\\Drivers\\chromedriver.exe");
- //System.setProperty("webdriver.opera.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\operadriver.exe");
-  //System.setProperty("webdriver.gecko.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\geckodriver.exe");
+  Thread.sleep(3000);
+// System.setProperty("webdriver.opera.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\operadriver.exe");
+ // System.setProperty("webdriver.gecko.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\geckodriver.exe");
 
-    driver = new ChromeDriver();
-   // driver = new OperaDriver();
-    //driver = new FirefoxDriver();
+   driver = new ChromeDriver();
+  //  driver = new OperaDriver();
+   // driver = new FirefoxDriver();
     		
 	driver.get( url);	
 	driver.manage().deleteAllCookies();
