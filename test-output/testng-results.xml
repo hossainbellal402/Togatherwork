@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19884" started-at="2020-06-28T10:00:24 EDT" finished-at="2020-06-28T10:00:44 EDT">
+  <suite name="Default suite" duration-ms="19022" started-at="2020-06-28T10:02:22 EDT" finished-at="2020-06-28T10:02:41 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19884" started-at="2020-06-28T10:00:24 EDT" finished-at="2020-06-28T10:00:44 EDT">
+    <test name="Default test" duration-ms="19022" started-at="2020-06-28T10:02:22 EDT" finished-at="2020-06-28T10:02:41 EDT">
       <class name="gather.Togather">
-        <test-method status="PASS" signature="OpenBrowers()[pri:0, instance:gather.Togather@4f970963]" name="OpenBrowers" is-config="true" duration-ms="15983" started-at="2020-06-28T10:00:24 EDT" finished-at="2020-06-28T10:00:40 EDT">
+        <test-method status="PASS" signature="OpenBrowers()[pri:0, instance:gather.Togather@4f970963]" name="OpenBrowers" is-config="true" duration-ms="14480" started-at="2020-06-28T10:02:22 EDT" finished-at="2020-06-28T10:02:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowers -->
-        <test-method status="PASS" signature="singupPage()[pri:0, instance:gather.Togather@4f970963]" name="singupPage" duration-ms="353" started-at="2020-06-28T10:00:40 EDT" finished-at="2020-06-28T10:00:40 EDT">
+        <test-method status="PASS" signature="singupPage()[pri:0, instance:gather.Togather@4f970963]" name="singupPage" duration-ms="343" started-at="2020-06-28T10:02:36 EDT" finished-at="2020-06-28T10:02:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- singupPage -->
-        <test-method status="PASS" signature="closeBrowers()[pri:0, instance:gather.Togather@4f970963]" name="closeBrowers" is-config="true" duration-ms="3489" started-at="2020-06-28T10:00:40 EDT" finished-at="2020-06-28T10:00:44 EDT">
+        <test-method status="PASS" signature="closeBrowers()[pri:0, instance:gather.Togather@4f970963]" name="closeBrowers" is-config="true" duration-ms="4132" started-at="2020-06-28T10:02:36 EDT" finished-at="2020-06-28T10:02:41 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowers -->
-        <test-method status="FAIL" signature="TearDown()[pri:0, instance:gather.Togather@4f970963]" name="TearDown" is-config="true" duration-ms="1" started-at="2020-06-28T10:00:44 EDT" finished-at="2020-06-28T10:00:44 EDT">
+        <test-method status="FAIL" signature="TearDown()[pri:0, instance:gather.Togather@4f970963]" name="TearDown" is-config="true" duration-ms="0" started-at="2020-06-28T10:02:43 EDT" finished-at="2020-06-28T10:02:43 EDT">
           <exception class="java.lang.Error">
             <message>
               <![CDATA[Unresolved compilation problems: 
