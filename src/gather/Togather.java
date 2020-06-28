@@ -34,8 +34,8 @@ public String lst = "Hossain";
 		
 System.setProperty( "webdriver.chrome.driver", "C:\\Users\\bella\\eclipse-workspace\\Togatherwork\\Drivers\\chromedriver.exe");
   Thread.sleep(3000);
-// System.setProperty("webdriver.opera.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\operadriver.exe");
- // System.setProperty("webdriver.gecko.driver", "C:\\Users\\bella\\eclipse-workspace\\MTaBH007\\drivers\\geckodriver.exe");
+// System.setProperty("webdriver.opera.driver", "C:\Users\bella\eclipse-workspace\Togatherwork\Drivers\operadriver.exe");
+ //System.setProperty("webdriver.gecko.driver", "C:\\Users\\bella\\eclipse-workspace\\Togatherwork\\Drivers\\operadriver.exe");
 
    driver = new ChromeDriver();
   //  driver = new OperaDriver();
@@ -68,7 +68,7 @@ public void TearDown(){
 
 	
 	
-	
+	taltekc@gmail
 	
 }
 
