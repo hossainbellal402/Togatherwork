@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 
-public class PracticeAnno extends Totry {
+public class PracticeAnno extends Togather {
 	public String url ="https://www.facebook.com/";
 	public String fn ="//input[@id='u_0_m']";
 	public String fval="Bella";
@@ -20,11 +20,11 @@ public class PracticeAnno extends Totry {
 	public String lst = "Hossain";
 	
 	
-@BeforeSuite
-  public void db () {
+//@BeforeSuite
+  //public void db () {
 	
 
-	}
+	//}
 @BeforeMethod
   public void openBrowers() {
 	System.setProperty("webdriver.chrome.driver", "C:/Users/TalentTEK/Documents/GitHub/SFW2020/drivers/chromedriver.exe");
@@ -45,10 +45,10 @@ public class PracticeAnno extends Totry {
   System.out.println("This is test singUP++++++++++++++++++++");	
   }
 
-@Test
- public void LongIn() {
-	System.out.println("This is test case is LongIn++++++++++++++++++");
-  }
+//@Test
+ //public void LongIn() {
+	//System.out.println("This is test case is LongIn++++++++++++++++++");
+  //}
 @AfterMethod
  public void browerClose() {
 	driver.close();
