@@ -5,12 +5,14 @@
     <classes>
       <class name="gather.PracticeAnno">
         <methods>
+          <include name="singUp"/>
           <include name="browerClose"/>
           <include name="SingUp"/>
           <include name="openBrowers"/>
-          <include name="LongIn"/>
-          <include name="db"/>
+          <include name="TearDown"/>
           <include name="tearDown"/>
+          <include name="closeBrowers"/>
+          <include name="OpenBrowers"/>
         </methods>
       </class> <!-- gather.PracticeAnno -->
     </classes>
