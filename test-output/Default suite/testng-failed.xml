@@ -3,14 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gather.Togather">
+      <class name="gather.PracticeAnno">
         <methods>
-          <include name="singupPage"/>
-          <include name="TearDown"/>
-          <include name="closeBrowers"/>
-          <include name="OpenBrowers"/>
+          <include name="browerClose"/>
+          <include name="SingUp"/>
+          <include name="openBrowers"/>
+          <include name="LongIn"/>
+          <include name="db"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- gather.Togather -->
+      </class> <!-- gather.PracticeAnno -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,13 +8,14 @@ public class Totry {
 	
 	WebDriver driver;
 	
-
+  
 	public  void main(String[] args) {
 		
    	
 		
 	  driver = new ChromeDriver();
-		  driver.get( "url");
+		  
+		driver.getCurrentUrl();
 		
 		
 

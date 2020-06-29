@@ -8,9 +8,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+@Test
 public class Togather extends Totry {
 	
 public String url ="https://www.facebook.com/";
@@ -25,8 +27,7 @@ public String lst = "Hossain";
 //  public String day = "";
 //  public String year = "";
 //  public String gender = "";
-//  public String singup = "";
-	
+//  public String singup = 
 
 @BeforeTest
 	
@@ -49,8 +50,7 @@ System.setProperty( "webdriver.chrome.driver", "C:\\Users\\bella\\eclipse-worksp
 		 System.out.println("Chrome driver open");
 		}
 @Test
-
-public void singupPage() {
+public void singUp() {
 	System.out.println("singup page testing......");
 	driver.findElement(By.xpath(fn)).sendKeys(fval);
 	driver.findElement(By.xpath(ln)).sendKeys( lst);
@@ -68,7 +68,7 @@ public void TearDown(){
 
 	
 	
-	taltekc@gmail
+
 	
 }
 
