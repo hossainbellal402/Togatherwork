@@ -1,5 +1,6 @@
 package gather;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
@@ -12,8 +13,10 @@ public class PriorityTry extends Togather{
 		public void loginTest(){
 			// selenium code
 			System.out.println (" facebook Login test");
-			driver.findElement(By.xpath(fnameLoc)).sendKeys(fnameVal);
-			driver.findElement(By.xpath(lnameLoc)).sendKeys(lnameVal);
+			
+			driver.findElement(By.xpath(fn)).sendKeys(fval);
+			driver.findElement(By.xpath(ln)).sendKeys( lst);
+
 		}
 
 		@Test (priority=3)
@@ -25,8 +28,10 @@ public class PriorityTry extends Togather{
 		@Test (priority=1)
 		public void signUpFbTest(){
 			System.out.println (" facebook sign up test");
-			driver.findElement(By.xpath(fnameLoc)).sendKeys(fnameVal);
-			driver.findElement(By.xpath(lnameLoc)).sendKeys(lnameVal);
+			
+			driver.findElement(By.xpath(fn)).sendKeys(fval);
+			driver.findElement(By.xpath(ln)).sendKeys( lst);
+
 			// check if new user exist in database
 			//		Statement stmt = conn.createStatement();
 			//		ResultSet rs = stmt.executeQuery("SELECT Lname FROM Customers WHERE phone = 718");
