@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17963" started-at="2020-07-24T15:06:21 EDT" finished-at="2020-07-24T15:06:39 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17963" started-at="2020-07-24T15:06:21 EDT" finished-at="2020-07-24T15:06:39 EDT">
+      <class name="gather.Togather">
+        <test-method status="PASS" signature="OpenBrowers()[pri:0, instance:gather.Togather@4f970963]" name="OpenBrowers" is-config="true" duration-ms="13144" started-at="2020-07-24T15:06:21 EDT" finished-at="2020-07-24T15:06:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowers -->
+        <test-method status="PASS" signature="singUp()[pri:0, instance:gather.Togather@4f970963]" name="singUp" duration-ms="366" started-at="2020-07-24T15:06:34 EDT" finished-at="2020-07-24T15:06:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singUp -->
+        <test-method status="PASS" signature="closeBrowers()[pri:0, instance:gather.Togather@4f970963]" name="closeBrowers" is-config="true" duration-ms="4390" started-at="2020-07-24T15:06:35 EDT" finished-at="2020-07-24T15:06:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowers -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:gather.Togather@4f970963]" name="TearDown" is-config="true" duration-ms="589" started-at="2020-07-24T15:06:39 EDT" finished-at="2020-07-24T15:06:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- gather.Togather -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
